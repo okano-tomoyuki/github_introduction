@@ -118,21 +118,25 @@ graph BT
     RemoteRepository
   end
   
-  subgraph A 
+  subgraph AさんのPC 
     LocalRepository1
   end
   
-  subgraph B
+  subgraph BさんのPC
     LocalRepository2
   end
   
-  subgraph C
+  subgraph CさんのPC
+    LocalRepository2
   end
   
-  subgraph D
+  subgraph DさんのPC
+    LocalRepository3
   end
   
   LocalRepository1 --> RemoteRepository
   LocalRepository2 --> RemoteRepository
+  LocalRepository3 --> RemoteRepository
+  LocalRepository4 --> RemoteRepository
   
 ```
