@@ -71,6 +71,14 @@ gitGraph
   commit id: "吠える機能を言語別に切替できるようにした commited by C"
 ```
 
+### 3. 巻き戻し作業が大変
+Aさんは犬プログラムについて食べる機能を実装しました。
+やっとの思いで完成させた食べる機能ですが、なんとそれを新人のDさんが全く異なるプログラムに変更してしまいました。
+バグだらけで使い物になりません。Aさんは悲しくなります。
+そんな時Gitを利用していれば巻き戻すのは簡単です。Gitは前述のコミットという単位ですべての変更履歴を保持しているため
+Dさんが変更を加える前の状態のコミットまで巻き戻すことができます。
+よかったね。Aさん。
+
 ``` mermaid
 graph BT
 
@@ -78,11 +86,11 @@ graph BT
     RemoteRepository
   end
   
-  subgraph UserA 
+  subgraph A 
     LocalRepository1
   end
   
-  subgraph UserB
+  subgraph B
     LocalRepository2
   end
   
