@@ -68,7 +68,7 @@ gitGraph
   commit id: "プロジェクト作成。commited by A"
   commit id: "犬クラスを作成した。commited by A"
   commit id: "犬クラスに吠える機能実装した。 commited by A"
-  commit id: "犬クラスに吠える機能を言語によって切り替えるようにした commited by C"
+  commit id: "吠える機能を言語別に切替できるようにした commited by C"
 ```
 
 ``` mermaid
