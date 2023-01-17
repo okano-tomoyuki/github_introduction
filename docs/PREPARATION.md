@@ -25,6 +25,7 @@ Sorry, coming soon...
 ### 1.1 Git Bashのインストール
 
 下記リンクからインストーラーをダウンロードします。
+
 https://git-scm.com/download/win
 
 「Standalone Installer」の「64-bit Git for Windows Setup.」を選択し、ダウンロードします。
