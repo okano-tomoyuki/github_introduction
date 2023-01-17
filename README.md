@@ -12,18 +12,19 @@ GitHubについて理解をするためにはまずgitについて理解する�
 ``` mermaid
 graph BT
 
-  subgraph Remote Repository
-    GitHub
+  subgraph GitHub
+    RemoteRepository
   end
   
-  subgraph Local Repository 
-    UserA
+  subgraph UserA 
+    LocalRepository1
   end
   
-  subgraph Local Repository
-    UserB
+  subgraph UserB
+    LocalRepository2
   end
   
-  UserA --> GitHub
-  UserB --> GitHub
+  LocalRepository1 --> RemoteRepository
+  LocalRepository2 --> RemoteRepository
+  
 ```
