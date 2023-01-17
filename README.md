@@ -30,10 +30,10 @@ Aさんは共有フォルダから必要なソースコードをダウンロー�
   'commitLabelBackground': '#ff0000'
 } } }%%
 gitGraph
-  commit id: "プロジェクト作成"
-  commit id: "犬クラス作成"
-  commit id: "犬クラスに吠える機能実装"
-  commit id: "犬クラスに食べる機能実装"
+  commit id: "プロジェクト作成\nokano-tomoyuki committed 7days ago."
+  commit id: "犬クラス作成\nokano-tomoyuki committed 7days ago."
+  commit id: "犬クラスに吠える機能実装\nokano-tomoyuki committed 7days ago."
+  commit id: "犬クラスに食べる機能実装\nokano-tomoyuki committed 7days ago."
   branch develop
   checkout develop
   commit
