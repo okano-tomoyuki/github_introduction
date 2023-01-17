@@ -127,11 +127,11 @@ graph BT
   end
   
   subgraph CさんのPC
-    LocalRepository2
+    LocalRepository3
   end
   
   subgraph DさんのPC
-    LocalRepository3
+    LocalRepository4
   end
   
   LocalRepository1 --> RemoteRepository
