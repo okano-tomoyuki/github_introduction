@@ -27,7 +27,8 @@ Sorry, coming soon...
 下記リンクからインストーラーをダウンロードします。
 https://git-scm.com/download/win
 
-
+「Standalone Installer」の「64-bit Git for Windows Setup.」を選択し、ダウンロードします。
+インストーラーを起動し、インストール作業を行います。
 
 ## 2. GitHubの利用環境準備
 
