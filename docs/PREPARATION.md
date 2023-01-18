@@ -18,8 +18,8 @@ Sorry, coming soon...
 所要時間　30分
 
 - Git Bashのインストール
+- SSH秘密鍵、公開鍵のペアを作成
 - Source Treeのインストール
-- ssh秘密鍵、公開鍵のペアを作成
 - Source Treeで利用できるようにssh秘密鍵を変換
 
 ### 1.1 Git Bashのインストール
@@ -97,6 +97,17 @@ https://git-scm.com/download/win
 「Install」をクリックします。
 
 ![step 1.1.17](/img/1.1/17.png)
+
+### 1.2 SSH秘密鍵、公開鍵のペアを作成
+Git Bashを起動します。
+
+下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。
+
+```
+ssh-keygen -t rsa -b 4096 -C "自分のメールアドレス"
+```
+
+### 1.3 Source Tree
 
 
 ## 2. GitHubの利用環境準備
