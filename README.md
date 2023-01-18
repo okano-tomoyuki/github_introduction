@@ -5,6 +5,9 @@ GitHubはGitの仕組みを利用したバージョン管理用のプラット�
 参考サイト
 - https://backlog.com/ja/git-tutorial/
 
+他リンク集
+- [Git利用環境準備](/docs/PREPARATION.md)
+
 ## 1. What is Git?
 GitHubについて理解をするためにはまずGitについて理解する必要があります。Gitとは分散型のバージョン管理システムです。
 まずはバージョン管理について考えてみましょう。
