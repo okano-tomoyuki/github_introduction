@@ -128,7 +128,7 @@ git config --global http.https://github.com.proxy http://[インターネット�
 下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。
 
 ```
-ssh-keygen -t rsa -b 4096 -C "自分のメールアドレス"
+ssh-keygen -t rsa -b 4096 -C "[会社のメールアドレス]"
 ```
 
 デフォルトであれば、「C:\Users\mesxxxxx」直下に.sshというフォルダが作成されています。(xxxxxはご自身の個人番号です。)
