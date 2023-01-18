@@ -118,7 +118,7 @@ https://www.atlassian.com/ja/software/sourcetree
 
 Windows向けを選択
 
-![step 1.2.1](/img/1.2/1.png)
+![step 1.3.1](/img/1.3/1.png)
 
 
 ## 2. GitHubの利用環境準備
