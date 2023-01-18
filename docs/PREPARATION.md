@@ -114,15 +114,15 @@ Windows画面左下の検索ボックスに「Git Bash」と入力すると
 ![step 1.2.1](/img/1.2/1.png)
 
 ```
-git config --global user.name "任意のユーザ名"
+git config --global user.name "[ユーザ名]"
 ```
 
 ```
-git config --global user.email "会社のメールアドレス"
+git config --global user.email "[会社のメールアドレス]"
 ```
 
 ```
-git config --global http.https://github.com.proxy http://prx2.mes.co.jp
+git config --global http.https://github.com.proxy http://[インターネット閲覧時のユーザID]:[パスワード]@prx2.mes.co.jp:8080
 ```
 
 下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。
