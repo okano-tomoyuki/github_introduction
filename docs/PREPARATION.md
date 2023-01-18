@@ -107,6 +107,9 @@ Git Bashを起動します。
 ssh-keygen -t rsa -b 4096 -C "自分のメールアドレス"
 ```
 
+デフォルトであれば、「C:\Users\mesxxxxx」直下に.sshというフォルダが作成されています。(xxxxxはご自身の個人番号です。)
+このフォルダの中にid_rsaとid_rsa.pubという2種類のファイルがありますが、id_rsaが秘密鍵ファイル、id_rsa.pubが公開鍵ファイルです。
+
 ### 1.3 Source Tree
 
 
