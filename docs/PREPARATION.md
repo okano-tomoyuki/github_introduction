@@ -32,71 +32,71 @@ https://git-scm.com/download/win
 インストーラーを起動し、インストール作業を行います。
 (後からでも変更可能なため、今回はすべてデフォルトの設定でインストールしていただいて結構です。)
 
-![step 1.1](/img/1.png)
+![step 1.1.1](/img/1.1/1.png)
 
 「Next」をクリックします。
 
-![step 2](/img/2.png)
+![step 1.1.2](/img/1.1/2.png)
 
 「Next」をクリックします。
 
-![step 3](/img/3.png)
+![step 1.1.3](/img/1.1/3.png)
 
 「Next」をクリックします。
 
-![step 4](/img/4.png)
+![step 1.1.4](/img/1.1/4.png)
 
 「Next」をクリックします。
 
-![step 5](/img/5.png)
+![step 1.1.5](/img/1.1/5.png)
 
 「Next」をクリックします。
 
-![step 6](/img/6.png)
+![step 1.1.6](/img/1.1/6.png)
 
 「Next」をクリックします。
 
-![step 7](/img/7.png)
+![step 1.1.7](/img/1.1/7.png)
 
 「Next」をクリックします。
 
-![step 8](/img/8.png)
+![step 1.1.8](/img/1.1/8.png)
 
 「Next」をクリックします。
 
-![step 9](/img/9.png)
+![step 1.1.9](/img/1.1/9.png)
 
 「Next」をクリックします。
 
-![step 10](/img/10.png)
+![step 1.1.10](/img/1.1/10.png)
 
 「Next」をクリックします。
 
-![step 11](/img/11.png)
+![step 1.1.11](/img/1.1/11.png)
 
 「Next」をクリックします。
 
-![step 12](/img/12.png)
+![step 1.1.12](/img/1.1/12.png)
 
 「Next」をクリックします。
 
-![step 13](/img/13.png)
+![step 1.1.13](/img/1.1/13.png)
 
 「Next」をクリックします。
 
-![step 14](/img/14.png)
+![step 1.1.14](/img/1.1/14.png)
 
 「Next」をクリックします。
 
-![step 15](/img/15.png)
+![step 1.1.15](/img/1.1/15.png)
 
 「Next」をクリックします。
 
-![step 16](/img/16.png)
+![step 1.1.16](/img/1.1/16.png)
 
 「Install」をクリックします。
 
-![step 17](/img/17.png)
+![step 1.1.17](/img/1.1/17.png)
 
 
 ## 2. GitHubの利用環境準備
