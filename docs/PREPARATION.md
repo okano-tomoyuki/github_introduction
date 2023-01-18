@@ -18,7 +18,7 @@ Sorry, coming soon...
 所要時間　30分
 
 - Git Bashのインストール
-- SSH秘密鍵、公開鍵のペアを作成
+- Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成
 - Source Treeのインストール
 - Source Treeで利用できるようにssh秘密鍵を変換
 
@@ -99,18 +99,31 @@ https://git-scm.com/download/win
 ![step 1.1.17](/img/1.1/17.png)
 
 インストール実行後以下の画面が表示されます。
-「View Release Note」のチェックボックスを外し、「Finish」をクリックします。
+「View Release Notes」のチェックボックスを外し、「Finish」をクリックします。
+(外さなくても問題はありません。リリースノートページのリンクが開くだけです)
 
 ![step 1.1.18](/img/1.1/18.png)
 
 
-### 1.2 SSH秘密鍵、公開鍵のペアを作成
+### 1.2 Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成
 Git Bashを起動します。
 
 Windows画面左下の検索ボックスに「Git Bash」と入力すると
 選択画面が表示されるので、「開く」をクリックします。
 
 ![step 1.2.1](/img/1.2/1.png)
+
+```
+git config --global user.name "任意のユーザ名"
+```
+
+```
+git config --global user.email "会社のメールアドレス"
+```
+
+```
+git config --global http.https://github.com.proxy http://prx2.mes.co.jp
+```
 
 下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。
 
