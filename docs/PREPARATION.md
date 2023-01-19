@@ -12,7 +12,8 @@ Sorry, coming soon...
 |--|--|
 |Git Bash|Gitを利用するためのツール|
 |Source Tree|GitをGUIから操作するためのツール(事前にGit Bashのインストールが必要)|
-|SSH|通信の暗号化方式の一つ。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。|
+|SSH|暗号化した通信手段の一つ(Secure Shell)。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。|
+|MFA|多要素認証(Multi Factor Authentication)。アカウントの乗っ取りなどを防ぐために設定する必要がある。|
 
 ## 1. Gitの利用環境準備
 所要時間　30分
@@ -112,17 +113,27 @@ Windows画面左下の検索ボックスに「Git Bash」と入力すると
 
 ![step 1.2.1](/img/1.2/1.png)
 
+まず、gitを利用するユーザ名を入力します。ユーザ名は任意です。
+
 ```
 git config --global user.name "[ユーザ名]"
 ```
+
+次にメールアドレスを設定しましょう。
 
 ```
 git config --global user.email "[会社のメールアドレス]"
 ```
 
+次にプロキシサーバーの設定をしましょう。プロキシサーバー情報については岡野まで問い合わせください。
+また、プロキシサーバーの設定情報は定期的に変更されるため**下記コマンドは定期的に実行する必要があります。**
+
 ```
 git config --global http.https://github.com.proxy http://[プロキシサーバのユーザID]:[パスワード]@[サーバ名]:[ポート番号]
 ```
+
+次にエンドポイント情報をhttpsに置き換えるように下記コマンドを実行します。
+(社内プロキシ経由の場合、SSHが利用できない。)
 
 ```
 git config --global url."https://github.com/".insteadOf git@github.com:
@@ -142,5 +153,4 @@ Windows向けを選択
 ## 2. GitHubの利用環境準備
 
 - GitHubアカウントの作成
-- GitHubアカウントにssh公開鍵の登録
-- 
+- MFAの設定
