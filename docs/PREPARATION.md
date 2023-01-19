@@ -123,7 +123,7 @@ git config --global user.email "[会社のメールアドレス]"
 ```
 
 ```
-git config --global http.https://github.com.proxy http://[インターネット閲覧時のユーザID]:[パスワード]@prx2.mes.co.jp:8080
+git config --global http.https://github.com.proxy http://[プロキシサーバのユーザID]:[パスワード]@[サーバ名]:[ポート番号]
 ```
 
 ```
