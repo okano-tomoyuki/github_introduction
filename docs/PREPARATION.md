@@ -127,7 +127,7 @@ git config --global http.https://github.com.proxy http://[プロキシサーバ�
 ```
 
 ```
-git config --global url."https://".insteadOf git@
+git config --global url."https://github.com/".insteadOf git@github.com:
 ```
 
 ### 1.3 Source Tree
