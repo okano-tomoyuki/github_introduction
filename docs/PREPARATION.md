@@ -5,22 +5,23 @@ Sorry, coming soon...
 
 ## 前提条件
 - Windows(10以降)を利用していること
-- 今までにSSHのキーペアを生成したことがないこと(SSHについては用語解説の項を参照)
+- ~~今までにSSHのキーペアを生成したことがないこと~~ SSHの場合MES-SのDNSから名前解決できないためHTTPSを使用する
 
 ## 用語解説
 |名称|意味|
 |--|--|
 |Git Bash|Gitを利用するためのツール|
 |Source Tree|GitをGUIから操作するためのツール(事前にGit Bashのインストールが必要)|
-|SSH|通信の暗号化方式の一つ。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。|
+|~~SSH~~|~~通信の暗号化方式の一つ。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。~~|
 
 ## 1. Gitの利用環境準備
 所要時間　30分
 
 - Git Bashのインストール
-- Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成
+- ~~Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成~~ HTTPSを使用する。
 - Source Treeのインストール
-- Source Treeで利用できるようにssh秘密鍵を変換
+- ~~Source Treeで利用できるようにssh秘密鍵を変換~~
+- Source Treeからの疎通確認
 
 ### 1.1 Git Bashのインストール
 
@@ -105,7 +106,7 @@ https://git-scm.com/download/win
 ![step 1.1.18](/img/1.1/18.png)
 
 
-### 1.2 Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成
+### 1.2 Gitの初期設定、~~SSH秘密鍵/公開鍵のペアを作成~~
 Git Bashを起動します。
 
 Windows画面左下の検索ボックスに「Git Bash」と入力すると
@@ -125,14 +126,14 @@ git config --global user.email "[会社のメールアドレス]"
 git config --global http.https://github.com.proxy http://[インターネット閲覧時のユーザID]:[パスワード]@prx2.mes.co.jp:8080
 ```
 
-下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。
+~~下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。~~
 
 ```
 ssh-keygen -t rsa -b 4096 -C "[会社のメールアドレス]"
 ```
 
-デフォルトであれば、「C:\Users\mesxxxxx」直下に.sshというフォルダが作成されています。(xxxxxはご自身の個人番号です。)
-このフォルダの中にid_rsaとid_rsa.pubという2種類のファイルがありますが、id_rsaが秘密鍵ファイル、id_rsa.pubが公開鍵ファイルです。
+~~デフォルトであれば、「C:\Users\mesxxxxx」直下に.sshというフォルダが作成されています。(xxxxxはご自身の個人番号です。)
+このフォルダの中にid_rsaとid_rsa.pubという2種類のファイルがありますが、id_rsaが秘密鍵ファイル、id_rsa.pubが公開鍵ファイルです。~~
 
 ### 1.3 Source Tree
 
