@@ -5,7 +5,7 @@ Sorry, coming soon...
 
 ## 前提条件
 - Windows(10以降)を利用していること
-- ~~今までにSSHのキーペアを生成したことがないこと~~ SSHの場合MES-SのDNSから名前解決できないためHTTPSを使用する
+- ~~今までにSSHのキーペアを生成したことがないこと~~ (注)SSHの場合MES-SのDNSから名前解決できないためHTTPSを使用する
 
 ## 用語解説
 |名称|意味|
@@ -18,9 +18,9 @@ Sorry, coming soon...
 所要時間　30分
 
 - Git Bashのインストール
-- ~~Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成~~ HTTPSを使用する。
+- ~~Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成~~ (注)HTTPSを使用する。
 - Source Treeのインストール
-- ~~Source Treeで利用できるようにssh秘密鍵を変換~~
+- ~~Source Treeで利用できるようにssh秘密鍵を変換~~ (注)HTTPSを使用する。
 - Source Treeからの疎通確認
 
 ### 1.1 Git Bashのインストール
@@ -126,14 +126,9 @@ git config --global user.email "[会社のメールアドレス]"
 git config --global http.https://github.com.proxy http://[インターネット閲覧時のユーザID]:[パスワード]@prx2.mes.co.jp:8080
 ```
 
-~~下記コマンドを実行し秘密鍵、公開鍵のペアを作成します。~~
-
 ```
-ssh-keygen -t rsa -b 4096 -C "[会社のメールアドレス]"
+git config --global url."https://".insteadOf git@
 ```
-
-~~デフォルトであれば、「C:\Users\mesxxxxx」直下に.sshというフォルダが作成されています。(xxxxxはご自身の個人番号です。)
-このフォルダの中にid_rsaとid_rsa.pubという2種類のファイルがありますが、id_rsaが秘密鍵ファイル、id_rsa.pubが公開鍵ファイルです。~~
 
 ### 1.3 Source Tree
 
