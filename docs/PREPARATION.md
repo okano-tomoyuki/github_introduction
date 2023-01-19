@@ -12,15 +12,13 @@ Sorry, coming soon...
 |--|--|
 |Git Bash|Gitを利用するためのツール|
 |Source Tree|GitをGUIから操作するためのツール(事前にGit Bashのインストールが必要)|
-|~~SSH~~|~~通信の暗号化方式の一つ。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。~~|
+|SSH|通信の暗号化方式の一つ。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。|
 
 ## 1. Gitの利用環境準備
 所要時間　30分
 
 - Git Bashのインストール
-- ~~Gitの初期設定、SSH秘密鍵/公開鍵のペアを作成~~ (注)HTTPSを使用する。
 - Source Treeのインストール
-- ~~Source Treeで利用できるようにssh秘密鍵を変換~~ (注)HTTPSを使用する。
 - Source Treeからの疎通確認
 
 ### 1.1 Git Bashのインストール
@@ -106,7 +104,7 @@ https://git-scm.com/download/win
 ![step 1.1.18](/img/1.1/18.png)
 
 
-### 1.2 Gitの初期設定、~~SSH秘密鍵/公開鍵のペアを作成~~
+### 1.2 Gitの初期設定
 Git Bashを起動します。
 
 Windows画面左下の検索ボックスに「Git Bash」と入力すると
