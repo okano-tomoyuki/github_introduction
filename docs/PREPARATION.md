@@ -1,5 +1,7 @@
 # Preparing the usage environment for Git and GitHub
 
+所要時間　30分
+
 This document is draft!
 Sorry, coming soon...
 
@@ -17,7 +19,6 @@ Sorry, coming soon...
 |MFA|多要素認証(Multi Factor Authentication)。アカウントの乗っ取りなどを防ぐために設定する必要がある。|
 
 ## 1. Gitの利用環境準備
-所要時間　30分
 
 - Git Bashのインストール
 - Source Treeのインストール
