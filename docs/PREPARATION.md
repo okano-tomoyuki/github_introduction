@@ -25,9 +25,10 @@ Sorry, coming soon...
 
 ## 2. Gitの利用環境準備
 
-- Git Bashのインストール
-- Source Treeのインストール
-- Source Treeからの疎通確認
+- 2.1 Git Bashのインストール
+- 2.2 Gitの初期設定、疎通確認
+- 2.3 Source Treeのインストール
+- 2.3 Source Treeの初期設定、疎通確認
 
 ### 2.1 Git Bashのインストール
 
@@ -56,7 +57,7 @@ https://git-scm.com/download/win
 
 次にインストールしたGitに初期設定を行います。
 
-### 2.2 Gitの初期設定
+### 2.2 Gitの初期設定、疎通確認
 Git Bashを起動します。
 
 Windows画面左下の検索ボックスに「Git Bash」と入力すると
@@ -112,7 +113,7 @@ ls
 rm -rf test_private_repository
 ```
 
-### 2.3 Source Tree
+### 2.3 Source Treeのインストール
 
 下記リンクを参考に「環境設定」の項まで設定を行ってください。
 
