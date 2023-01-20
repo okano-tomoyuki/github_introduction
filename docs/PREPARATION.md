@@ -36,70 +36,6 @@ https://git-scm.com/download/win
 
 ![step 1.1.1](/img/1.1/1.png)
 
-「Next」をクリックします。
-
-![step 1.1.2](/img/1.1/2.png)
-
-「Next」をクリックします。
-
-![step 1.1.3](/img/1.1/3.png)
-
-「Next」をクリックします。
-
-![step 1.1.4](/img/1.1/4.png)
-
-「Next」をクリックします。
-
-![step 1.1.5](/img/1.1/5.png)
-
-「Next」をクリックします。
-
-![step 1.1.6](/img/1.1/6.png)
-
-「Next」をクリックします。
-
-![step 1.1.7](/img/1.1/7.png)
-
-「Next」をクリックします。
-
-![step 1.1.8](/img/1.1/8.png)
-
-「Next」をクリックします。
-
-![step 1.1.9](/img/1.1/9.png)
-
-「Next」をクリックします。
-
-![step 1.1.10](/img/1.1/10.png)
-
-「Next」をクリックします。
-
-![step 1.1.11](/img/1.1/11.png)
-
-「Next」をクリックします。
-
-![step 1.1.12](/img/1.1/12.png)
-
-「Next」をクリックします。
-
-![step 1.1.13](/img/1.1/13.png)
-
-「Next」をクリックします。
-
-![step 1.1.14](/img/1.1/14.png)
-
-「Next」をクリックします。
-
-![step 1.1.15](/img/1.1/15.png)
-
-「Next」をクリックします。
-
-![step 1.1.16](/img/1.1/16.png)
-
-「Install」をクリックします。
-
-![step 1.1.17](/img/1.1/17.png)
-
 インストール実行後以下の画面が表示されます。
 「View Release Notes」のチェックボックスを外し、「Finish」をクリックします。
 (外さなくても問題はありません。リリースノートページのリンクが開くだけです)
@@ -165,13 +101,9 @@ rm -rf test_private_repository
 
 ### 1.3 Source Tree
 
-下記リンクからインストーラーをダウンロードします。
+下記リンクを参考に「環境設定」の項まで設定を行ってください。
 
-https://www.atlassian.com/ja/software/sourcetree
-
-Windows向けを選択
-
-![step 1.3.1](/img/1.3/1.png)
+https://yu-report.com/entry/sourcetree/
 
 
 ## 2. GitHubの利用環境準備
