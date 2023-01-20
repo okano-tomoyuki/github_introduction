@@ -20,8 +20,31 @@ Sorry, coming soon...
 
 ## 1. GitHubの利用環境準備
 
-- GitHubアカウントの作成
-- MFAの設定
+- 1.1 GitHubアカウントの作成
+- 1.2 MFAの設定
+
+### 1.1 GitHubアカウントの作成
+
+![step 1.1.1](/img/1.1/1.png)
+
+![step 1.1.2](/img/1.1/2.png)
+
+![step 1.1.3](/img/1.1/3.png)
+
+![step 1.1.4](/img/1.1/4.png)
+
+![step 1.1.5](/img/1.1/5.png)
+
+![step 1.1.6](/img/1.1/6.png)
+
+![step 1.1.7](/img/1.1/7.png)
+
+![step 1.1.8](/img/1.1/8.png)
+
+![step 1.1.9](/img/1.1/9.png)
+
+![step 1.1.10](/img/1.1/10.png)
+
 
 ## 2. Gitの利用環境準備
 
