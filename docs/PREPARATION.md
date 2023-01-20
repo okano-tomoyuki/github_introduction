@@ -148,7 +148,7 @@ mkdir -p /c/source/meguri && cd /c/source/meguri
 ```
 
 ```
-git clone git@github.com:okano-tomoyuki/test_private.git
+git clone git@github.com:okano-tomoyuki/test_private_repository.git
 ```
 
 下記コマンドを実行し、リポジトリをcloneできているか確認します。
@@ -157,6 +157,11 @@ git clone git@github.com:okano-tomoyuki/test_private.git
 ls
 ```
 
+確認ができたらcloneしてきたリポジトリを削除します。
+
+```
+rm -rf test_private_repository
+```
 
 ### 1.3 Source Tree
 
