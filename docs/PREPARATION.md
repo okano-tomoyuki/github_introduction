@@ -134,12 +134,29 @@ git config --global user.email "[会社のメールアドレス]"
 git config --global http.https://github.com.proxy http://[プロキシサーバのユーザID]:[パスワード]@[サーバ名]:[ポート番号]
 ```
 
-次にエンドポイント情報をhttpsに置き換えるように下記コマンドを実行します。
+次にエンドポイント情報をHTTPS用のものに置き換えるように下記コマンドを実行します。
 (社内プロキシ経由の場合、SSHが利用できない。)
 
 ```
 git config --global url."https://github.com/".insteadOf git@github.com:
 ```
+
+複数のリポジトリをまとめて管理するためのフォルダを作成し、移動します。
+
+```
+mkdir -p /c/source/meguri && cd /c/source/meguri
+```
+
+```
+git clone git@github.com:okano-tomoyuki/test_private.git
+```
+
+下記コマンドを実行し、リポジトリをcloneできているか確認します。
+
+```
+ls
+```
+
 
 ### 1.3 Source Tree
 
