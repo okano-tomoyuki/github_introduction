@@ -36,12 +36,15 @@ Sorry, coming soon...
 https://git-scm.com/download/win
 
 「Standalone Installer」の「64-bit Git for Windows Setup.」を選択し、ダウンロードします。
-インストーラーを起動し、インストール作業を行います。
-(後からでも変更可能なため、今回はすべてデフォルトの設定でインストールしていただいて結構です。)
 
 ![step 2.1.1](/img/2.1/1.png)
 
+ダウンロードしたインストーラーを起動し、インストール作業を行います。
+
 ![step 2.1.2](/img/2.1/2.png)
+
+下記画面が起動します。「Next」をクリックします。
+以降インストールまですべてデフォルト設定のまま「Next」をクリックして進めてください。
 
 ![step 2.1.3](/img/2.1/3.png)
 
@@ -51,6 +54,7 @@ https://git-scm.com/download/win
 
 ![step 2.1.2](/img/2.1/4.png)
 
+次にインストールしたGitに初期設定を行います。
 
 ### 2.2 Gitの初期設定
 Git Bashを起動します。
