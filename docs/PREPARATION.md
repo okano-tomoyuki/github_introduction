@@ -168,11 +168,18 @@ git clone git@github.com:okano-tomoyuki/test_private_repository.git
 ls
 ```
 
-確認ができたらcloneしてきたリポジトリを削除します。
+確認ができたらcloneしてきたリポジトリを削除し、同名のフォルダを作成します。(後でSourceTreeの疎通確認に利用するためです。)
 
 ```
-rm -rf test_private_repository
+rm -rf test_private_repository && mkdir test_private_repository
 ```
+
+Git Bashを閉じます。
+```
+exit
+```
+
+次にSource Treeのインストールを行います。
 
 ### 2.3 Source Treeのインストール
 
