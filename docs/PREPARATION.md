@@ -1,8 +1,10 @@
 # Preparing the usage environment for Git and GitHub
 
 所要時間　30分
-- 1. GitHubの利用環境準備
-- 2. Gitの利用環境準備
+
+## 作業内容
+- 1.GitHubの利用環境準備
+- 2.Gitの利用環境準備
 
 ## 前提条件
 - Windows(10以降)を利用していること
