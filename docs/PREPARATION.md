@@ -18,13 +18,18 @@ Sorry, coming soon...
 |SSH|暗号化した通信手段の一つ(Secure Shell)。秘密鍵と呼ばれるファイルをクライアントPCに、<br>公開鍵と呼ばれるファイルをGitHub上に保存することで機能する。|
 |MFA|多要素認証(Multi Factor Authentication)。アカウントの乗っ取りなどを防ぐために設定する必要がある。|
 
-## 1. Gitの利用環境準備
+## 1. GitHubの利用環境準備
+
+- GitHubアカウントの作成
+- MFAの設定
+
+## 2. Gitの利用環境準備
 
 - Git Bashのインストール
 - Source Treeのインストール
 - Source Treeからの疎通確認
 
-### 1.1 Git Bashのインストール
+### 2.1 Git Bashのインストール
 
 下記リンクからインストーラーをダウンロードします。
 
@@ -34,16 +39,20 @@ https://git-scm.com/download/win
 インストーラーを起動し、インストール作業を行います。
 (後からでも変更可能なため、今回はすべてデフォルトの設定でインストールしていただいて結構です。)
 
-![step 1.1.1](/img/1.1/1.png)
+![step 2.1.1](/img/2.1/1.png)
+
+![step 2.1.2](/img/2.1/2.png)
+
+![step 2.1.3](/img/2.1/3.png)
 
 インストール実行後以下の画面が表示されます。
 「View Release Notes」のチェックボックスを外し、「Finish」をクリックします。
 (外さなくても問題はありません。リリースノートページのリンクが開くだけです)
 
-![step 1.1.18](/img/1.1/18.png)
+![step 2.1.2](/img/2.1/4.png)
 
 
-### 1.2 Gitの初期設定
+### 2.2 Gitの初期設定
 Git Bashを起動します。
 
 Windows画面左下の検索ボックスに「Git Bash」と入力すると
@@ -99,14 +108,8 @@ ls
 rm -rf test_private_repository
 ```
 
-### 1.3 Source Tree
+### 2.3 Source Tree
 
 下記リンクを参考に「環境設定」の項まで設定を行ってください。
 
 https://yu-report.com/entry/sourcetree/
-
-
-## 2. GitHubの利用環境準備
-
-- GitHubアカウントの作成
-- MFAの設定
