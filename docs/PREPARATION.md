@@ -80,7 +80,10 @@
 
 ### 1.2 MFAの設定
 
-省略
+下記リンクを参考にMFAの設定を実施します。
+MFA用にデバイスにインストールするアプリケーションについては任意のものを選択してください。
+
+https://docs.github.com/ja/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication
 
 次にGitの設定を行います。
 
